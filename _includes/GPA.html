@@ -1,0 +1,19 @@
+{% assign GPA = site.data.data.sidebar.GPA %}
+{% if GPA %}
+<div class="languages-container container-block">
+
+  <h2 class="container-block-title">
+    GPA
+  </h2>
+
+  <ul class="list-unstyled interests-list">
+    {%for gpa in GPA %}
+    <li>
+      {{ gpa.idiom }}
+      <span class="lang-desc">({{ gpa.level }})</span>
+    </li>
+    {% endfor %}
+  </ul>
+
+</div><!--//interests-->
+{% endif %}

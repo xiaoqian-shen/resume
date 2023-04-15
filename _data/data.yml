@@ -1,0 +1,145 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: 沈晓倩
+    tagline: Xiaoqian Shen
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: xiaoqian.shen@kaust.edu.sa
+    phone: (+86)13642093218
+    website: xiaoqian-shen.github.io #do not add http://
+    linkedin: 
+    xing: 
+    github: xiaoqian-shen
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 'xiaoqian_shen'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: 	https://xiaoqian-shen.github.io/assets/pdf/resume.pdf
+    
+    languages:
+      - idiom: Chinese
+        level: Native
+
+      - idiom: English
+        level: Professional
+        
+      - idiom: Toefl 104
+        level: R29,L27,S21,W27
+      
+      - idiom: GRE 328
+        level: V158,Q170,W3.5
+        
+    interests:
+      - item: Badminton
+        link:
+
+      - item: Running
+        link:
+
+      - item: Travelling
+        link:
+
+career-profile:
+    title: Profile
+    summary: |
+      I am currently a Master student of Computer Science at King Abdullah University of Science and Technology (Kaust) supervised by Mohamed Elhoseiny. Before that, I received BSc in Computer Science from Jilin University, China.
+education:
+    - degree: Msc of Computer Science
+        university: Kaust, Saudi Arabia
+        time: 2022-2024(expected)
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
+    - degree: BSc of Computer Science & Technology
+      university: Jilin University, China
+      time: 2018-2022
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+
+publications:
+  title: Publications
+  intro: |
+  papers:
+    - title: "MoStGAN: Video Generation with Temporal Motion Style"
+      authors: Xiaoqian Shen, Xiang Li, Mohamed Elhoseiny
+      conference: Submitted to CVPR 2023
+
+    - title: "Affective Visual Dialog"
+      authors: Kilichbek Haydarov, Xiaoqian Shen, Avinash Madasu, Mahmoud Salem, Li-jia Li, Gamaleldin Fathy Elsayed, Mohamed Elhoseiny
+      conference: Submitted to CVPR 2023
+
+    - title: "Adversarial Text to Continuous Image Generation"
+      authors: Kilichbek Haydarov, Aashiq Muhamed, Jovana Lazarevic, Ivan Skorokhodov, Xiaoqian Shen, Chamuditha Galappaththige, Mohamed Elhoseiny
+      link: "https://openreview.net/forum?id=9X3UZJSGIg9"
+
+    - title: "Exploring hierarchical graph representation for large-scale zero-shot image classification"
+      link: "https://arxiv.org/pdf/2206.00665.pdf"
+      authors: Kai Yi, Xiaoqian Shen, Yunhao Gou, Mohamed Elhoseiny
+      conference: European Conference on Computer Vision (ECCV) 2022
+
+    - title: "Multi-ConDoS: Multimodality Contrastive Domain Sharing for Self-Supervised Medical Image Segmentation"
+      authors: Jiaojiao Zhang, Shuo Zhang, Xiaoqian Shen, Zhenghua Xu, Thomas Lukasiewicz
+
+    - title: "KeMRE: Knowledge-enhanced medical relation extraction for Chinese medicine instructions"
+      link: "https://doi.org/10.1016/j.jbi.2021.103834"
+      authors: TaoQi, ShanQiu, XiaoqianShen, HaopuChen, ShuaiYang, HaoWen, YaZhang, YuanqingWu, YongfengHuang
+      conference: "Journal of Biomedical Informatics, Volume 120, 103834"
+
+    - title: "Image Splicing Location Based on Illumination Maps and Cluster Region Proposal Network"
+      link: "https://www.mdpi.com/2076-3417/11/18/8437"
+      authors: Ye Zhu, Xiaoqian Shen (Co-first author), Shikun Liu, Gang Yan, Xiaoli Zhang
+      conference: "Applied Science, 2021, 11(18), 8437"
+
+projects:
+    - role: Adversarial Text to Continuous Image Generation
+      time: 2022
+      company: Prof. Mohamed Elhoseiny’s group, Kaust, Saudi Arabia
+
+    - role: Self-supervised Learning for medical image segmentation 
+      time: 2021
+      company: Prof. Zhenghua Xu’s group, Hebei University of Technology and University of Oxford
+
+    - role: Medical relation extraction for Chinese medicine instructions
+      time: 2021
+      company: Prof. Yongfeng Huang’s group, Tsinghua University, China
+
+    - role: Image Splicing Location Based on Illumination Maps and Cluster Region Proposal Network
+      time: 2020
+      company: Dr. Ye Zhu, Hebei University of Technology, China
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python
+
+      - name: C, C++
+
+      - name: Java
+
+      - name: HTML5 & CSS
+
+footer: >
+    Designed by <a href="https://xiaoqian-shen.github.io">Xiaoqian Shen</a>
